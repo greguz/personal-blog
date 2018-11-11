@@ -9,7 +9,7 @@ description: Yet another blog
 keywords:
 author: Giacomo Gregoletto
 language: en
-timezone:
+timezone: Europe/Rome
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

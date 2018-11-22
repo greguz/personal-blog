@@ -25,17 +25,16 @@ use_header_cover: true
 index_cover: /img/default-banner-dark.jpg
 
 widgets:
-- category
-- tag
-- archive
+  - category
+  - tag
+  - archive
 
 # widget behavior
-archive_type: 'monthly'
+archive_type: monthly
 show_count: false
 
 # favicon
 favicon: /favicon.png
 
 # Google Analytics Tracking ID
-google_analytics:
-
+google_analytics: UA-41020126-3

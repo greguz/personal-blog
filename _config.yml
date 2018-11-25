@@ -87,3 +87,8 @@ deploy:
 sitemap:
   path: sitemap.xml
   template: ./sitemap.xml
+
+# https://github.com/leecrossley/hexo-generator-robotstxt
+robotstxt:
+  useragent: "*"
+  sitemap: /sitemap.xml

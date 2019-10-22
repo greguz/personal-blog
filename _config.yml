@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "{ monkey chair }"
-subtitle: Diary of a man trying to build something
-description: Music, coding, brewing and other ways to avoid boredom
-keywords:
+title: "{ spaghetti code }"
+subtitle: An amalgamate of words written by an Italian guy
+description: This blog identifies as a professional-grade website
+keywords: spaghetti code
 author: Giacomo Gregoletto
 language: en
 timezone: Europe/Rome
@@ -54,7 +54,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: random
 category_map:
 tag_map:
 
@@ -87,8 +87,3 @@ deploy:
 sitemap:
   path: sitemap.xml
   template: ./sitemap.xml
-
-# https://github.com/leecrossley/hexo-generator-robotstxt
-robotstxt:
-  useragent: "*"
-  sitemap: /sitemap.xml

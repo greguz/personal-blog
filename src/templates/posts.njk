@@ -2,9 +2,9 @@
 
 {% block content %}
 
-  {% for post in posts | paginate(page) %}
+  {% for post in posts | paginate(page_size, page_number) %}
     <div class="post-preview">
-      <a href="{{ url('/' + post.path) }}">
+      <a href="{{ root }}/{{ post.path }}">
         <h2 class="post-title">
           {{ post.title }}
         </h2>
@@ -33,11 +33,11 @@
     </div>
   {% endfor %}
 
-  {% if posts | hasMore(page) %}
+  {% if posts | hasNextPage(page_size, page_number) %}
     <hr>
     <ul class="pager">
       <li class="next">
-        <a href="/page/{{ page | add(1) }}">Older Posts &rarr;</a>
+        <a href="/page/{{ page_number + 1 }}">Older Posts &rarr;</a>
       </li>
     </ul>
   {% endif %}

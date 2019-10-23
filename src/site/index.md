@@ -1,6 +1,6 @@
 ---
 layout: posts.njk
-page: 1
+page_number: 1
 ---
 
 Computed

@@ -1,34 +1,34 @@
-const moment = require('moment')
 const path = require('path')
 
-const Metalsmith = require('metalsmith')
+const smith = require('metalsmith')
 const collections = require('metalsmith-collections')
 const layouts = require('metalsmith-layouts')
 const markdown = require('metalsmith-markdown')
 const permalinks = require('metalsmith-permalinks')
 
-const PAGE_SIZE = 8
-
 const source = path.resolve(__dirname, '..')
 const target = path.resolve(__dirname, '..', '..', 'build')
 
-Metalsmith(source)
+const production = process.env.NODE_ENV === 'production'
+
+smith(source)
+  // Base data available inside templates
   .metadata({
     now: new Date(),
     author: 'Giacomo Gregoletto',
     title: '{ spaghetti code }',
     description: 'An amalgamate of words written by an Italian guy',
     image: '/img/brain.jpg',
-    url: (url) => {
-      // TODO: configure this
-      // return '/personal-blog' + url;
-      return url
-    }
+    page_size: 8,
+    root: production ? '/personal-blog' : ''
   })
+  // Files to precess
   .source(path.join(source, 'site'))
+  // Destination dir
   .destination(target)
-  .clean(true)
-  // TODO: generate tags.md
+  // Delete the destination dir before any write
+  .clean(production)
+  // Inject groups inside metadata
   .use(collections({
     posts: {
       pattern: 'posts/*.md',
@@ -38,8 +38,6 @@ Metalsmith(source)
   }))
   .use(markdown())
   .use(permalinks({
-    // TODO: fix this
-    // duplicatesFail: true,
     relative: false,
     pattern: ':date/:title'
   }))
@@ -48,18 +46,7 @@ Metalsmith(source)
     directory: path.join(source, 'templates'),
     default: 'default.njk',
     engineOptions: {
-      filters: {
-        add: (...args) => args.reduce((acc, arg) => acc + arg, 0),
-        parseDate: (date, format) => moment(date, format).toDate(),
-        formatDate: (date, format) => moment(date).format(format),
-        paginate: (items, page) => {
-          const index = (page - 1) * PAGE_SIZE
-          return items.slice(index, index + PAGE_SIZE)
-        },
-        hasMore: (items, page) => {
-          return items.length > (page * PAGE_SIZE)
-        }
-      }
+      filters: require('./filters')
     }
   }))
   .build(function (err) {

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include 'partials/head.njk' %}
+
+  <body>
+
+    {% include 'partials/navigation.njk' %}
+
+    {% include 'partials/header.njk' %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          {% block content %}
+            {{ contents | safe }}
+          {% endblock %}
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    {% include 'partials/footer.njk' %}
+
+    {% include 'partials/javascript.njk' %}
+
+  </body>
+
+</html>

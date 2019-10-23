@@ -1,0 +1,45 @@
+{% extends 'default.njk' %}
+
+{% block content %}
+
+  {% for post in posts | paginate(page) %}
+    <div class="post-preview">
+      <a href="{{ url('/' + post.path) }}">
+        <h2 class="post-title">
+          {{ post.title }}
+        </h2>
+        <h3 class="post-subtitle">
+          {{ post.subtitle }}
+        </h3>
+      </a>
+      <p class="post-meta">Posted on {{ post.date | formatDate('MMMM D, YYYY') }}</p>
+    </div>
+    {% if loop.last %}
+      <!-- last -->
+    {% else %}
+      <hr>
+    {% endif %}
+  {% else %}
+    <div class="post-preview">
+      <a href="#">
+        <h2 class="post-title">
+          This placeholder identifies as a real post
+        </h2>
+        <h3 class="post-subtitle">
+          Click here for instant disappointment
+        </h3>
+      </a>
+      <p class="post-meta">Posted on {{ now | formatDate('MMMM D, YYYY') }}</p>
+    </div>
+  {% endfor %}
+
+  {% if posts | hasMore(page) %}
+    <hr>
+    <ul class="pager">
+      <li class="next">
+        <a href="/page/{{ page | add(1) }}">Older Posts &rarr;</a>
+      </li>
+    </ul>
+  {% endif %}
+
+{% endblock %}

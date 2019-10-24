@@ -2,11 +2,6 @@
 date: 2018-11-20
 title: DualShock 2 emulator
 subtitle: Trust me PlayStation, I'm a fully fledged DualShock 2 controller
-category: DS2Box
-tags:
-  - c++
-  - dualshock
-  - ps2
 ---
 
 Year 2018, and I'm still playing with a PlayStation 2. The only problem is the old crappy controller that I'm still using. Big problem if crack during a boss fight.

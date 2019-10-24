@@ -1,14 +1,11 @@
 ---
-title: Back pressured thoughts
-subtitle: Yessa, It works!
 date: 2019-01-20
-categories:
-  - Projects
-  - rxlax
+title: Back pressured thoughts
+subtitle: Yet another way to deal with backpressure with Rx.js
+category: rxlax
 tags:
-  - JavaScript
-  - Node.js
-  - ReactiveX
+  - javascript
+  - rx
 ---
 
 Node.js is perfect for scripting. With its well-stocked library, you can just drop a small amount of code to solve complicated problems. Add some [ReactiveX](https://rxjs-dev.firebaseapp.com/)-flavored code and you will be able to conquer the world.

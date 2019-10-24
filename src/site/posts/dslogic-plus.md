@@ -1,10 +1,11 @@
 ---
-title: DSLogic Plus
 date: 2018-11-29
-categories:
-  - Projects
-  - DS2Box
+title: DSLogic Plus
+subtitle: Sniff.. Sniff.. I smell some spaghetti inside that code
+category: DS2Box
 tags:
+  - arduino
+  - dualshock
   - ps2
 ---
 

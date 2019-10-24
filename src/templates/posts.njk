@@ -14,9 +14,7 @@
       </a>
       <p class="post-meta">Posted on {{ post.date | formatDate('MMMM D, YYYY') }}</p>
     </div>
-    {% if loop.last %}
-      <!-- last -->
-    {% else %}
+    {% if not loop.last %}
       <hr>
     {% endif %}
   {% else %}

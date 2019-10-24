@@ -6,6 +6,8 @@ const layouts = require('metalsmith-layouts')
 const markdown = require('metalsmith-markdown')
 const permalinks = require('metalsmith-permalinks')
 
+const pagination = require('./plugins/pagination')
+
 const source = path.resolve(__dirname, '..')
 const target = path.resolve(__dirname, '..', '..', 'build')
 
@@ -27,7 +29,7 @@ smith(source)
   // Destination dir
   .destination(target)
   // Delete the destination dir before any write
-  .clean(production)
+  .clean(true)
   // Inject groups inside metadata
   .use(collections({
     posts: {
@@ -36,6 +38,7 @@ smith(source)
       reverse: true
     }
   }))
+  .use(pagination())
   .use(markdown())
   .use(permalinks({
     relative: false,

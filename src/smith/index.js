@@ -5,6 +5,7 @@ const collections = require('metalsmith-collections')
 const layouts = require('metalsmith-layouts')
 const markdown = require('metalsmith-markdown')
 const permalinks = require('metalsmith-permalinks')
+const minifyHtml = require('metalsmith-html-minifier')
 
 const pagination = require('./plugins/pagination')
 
@@ -52,6 +53,7 @@ smith(source)
       filters: require('./filters')
     }
   }))
+  .use(minifyHtml())
   .build(function (err) {
     if (err) {
       console.error(err)

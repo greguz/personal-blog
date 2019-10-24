@@ -3,10 +3,9 @@ const path = require('path')
 const smith = require('metalsmith')
 const collections = require('metalsmith-collections')
 const layouts = require('metalsmith-layouts')
-const markdown = require('metalsmith-markdown')
 const permalinks = require('metalsmith-permalinks')
 const minifyHtml = require('metalsmith-html-minifier')
-
+const markdown = require('./plugins/markdown')
 const pagination = require('./plugins/pagination')
 
 const source = path.resolve(__dirname, '..')

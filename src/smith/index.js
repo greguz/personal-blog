@@ -21,7 +21,7 @@ smith(source)
     author: 'Giacomo Gregoletto',
     title: '{ spaghetti code }',
     description: 'An amalgamate of words written by an Italian guy',
-    image: '/img/brain.jpg',
+    image: '/img/head.jpg',
     page_size: 8,
     root: production ? '/personal-blog' : ''
   })

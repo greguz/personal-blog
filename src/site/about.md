@@ -1,7 +1,7 @@
 ---
 title: About Me
 description: It's a Bird... It's a Plane... Where's my glasses!?
-image: /img/typewriter.jpg
+image: /img/punk.jpg
 ---
 
 Think twice, code once.

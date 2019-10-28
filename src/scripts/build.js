@@ -49,7 +49,7 @@ smith(source)
     directory: path.join(source, 'templates'),
     default: 'default.njk',
     engineOptions: {
-      filters: require('./filters')
+      filters: require('./libs/filters')
     }
   }))
   .use(minifyHtml())

@@ -3,8 +3,9 @@
   "version": "2.0.0",
   "description": "My personal blog",
   "scripts": {
-    "test": "eslint src/smith",
-    "build": "node src/smith/index.js",
+    "test": "eslint src/scripts",
+    "build": "node src/scripts/build.js",
+    "deploy": "NODE_ENV=production node src/scripts/build.js && node scripts/deploy.js",
     "serve": "live-server --wait=1000 build"
   },
   "keywords": [

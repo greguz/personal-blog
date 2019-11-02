@@ -5,7 +5,7 @@
   "scripts": {
     "test": "eslint src/scripts",
     "build": "node src/scripts/build.js",
-    "deploy": "NODE_ENV=production node src/scripts/build.js && node scripts/deploy.js",
+    "deploy": "NODE_ENV=production node src/scripts/build.js && node src/scripts/deploy.js",
     "serve": "live-server --wait=1000 build"
   },
   "keywords": [

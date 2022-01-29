@@ -2,3 +2,4 @@
 *.lock
 _terminal
 /deploy.sh
+/resources

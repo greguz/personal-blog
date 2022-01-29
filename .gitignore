@@ -1,3 +1,4 @@
 /public
 *.lock
 _terminal
+/deploy.sh

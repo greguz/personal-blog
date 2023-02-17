@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on ggblog</title>
+    <link>https://greguz.github.io/personal-blog/tags/</link>
+    <description>Recent content in Tags on ggblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Giacomo Gregoletto</copyright>
+    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://greguz.github.io/personal-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://greguz.github.io/personal-blog/tags/blog/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://greguz.github.io/personal-blog/tags/javascript/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reactivex</title>
+      <link>https://greguz.github.io/personal-blog/tags/reactivex/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/tags/reactivex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arduino</title>
+      <link>https://greguz.github.io/personal-blog/tags/arduino/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c&#43;&#43;</title>
+      <link>https://greguz.github.io/personal-blog/tags/c&#43;&#43;/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playstation</title>
+      <link>https://greguz.github.io/personal-blog/tags/playstation/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/tags/playstation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

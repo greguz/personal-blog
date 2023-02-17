@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reactivex on ggblog</title>
+    <link>https://greguz.github.io/personal-blog/tags/reactivex/</link>
+    <description>Recent content in reactivex on ggblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Giacomo Gregoletto</copyright>
+    <lastBuildDate>Sun, 20 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://greguz.github.io/personal-blog/tags/reactivex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back pressured thoughts</title>
+      <link>https://greguz.github.io/personal-blog/posts/2019/back-pressured-thoughts/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/posts/2019/back-pressured-thoughts/</guid>
+      <description>Node.js is perfect for scripting. With its well-stocked library, you can just drop a small amount of code to solve complicated problems. Add some ReactiveX-flavored code and you will be able to conquer the world.
+Anyone who has used Node.js for some time, probably knows very well the backpressure problem with streams. It&amp;rsquo;s when you define a readable stream (the source) and a writable stream (the target) but the writable stream is slower to process the data then the readable stream to output new data.</description>
+    </item>
+    
+  </channel>
+</rss>

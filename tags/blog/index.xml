@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on ggblog</title>
+    <link>https://greguz.github.io/personal-blog/tags/blog/</link>
+    <description>Recent content in blog on ggblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Giacomo Gregoletto</copyright>
+    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://greguz.github.io/personal-blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spaghetti Code</title>
+      <link>https://greguz.github.io/personal-blog/posts/2019/spaghetti-code/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/posts/2019/spaghetti-code/</guid>
+      <description>As the subtitle may suggest, I&amp;rsquo;ve left the super-fast-to-start Hexo framework for a more complicated solution, because, you know, I want to cook my spaghetti!
+Long story short, I came upon some limitations about using Hexo and its themes, so instead of hacking around the entire codebase to do some (apparently) simple tasks, I&amp;rsquo;ve opted for a fresh start, plus this is a perfect occasion to try some new NPM package.</description>
+    </item>
+    
+  </channel>
+</rss>

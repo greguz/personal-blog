@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ggblog</title>
+    <link>https://greguz.github.io/personal-blog/</link>
+    <description>Recent content on ggblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Giacomo Gregoletto</copyright>
+    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://greguz.github.io/personal-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spaghetti Code</title>
+      <link>https://greguz.github.io/personal-blog/posts/2019/spaghetti-code/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/posts/2019/spaghetti-code/</guid>
+      <description>As the subtitle may suggest, I&amp;rsquo;ve left the super-fast-to-start Hexo framework for a more complicated solution, because, you know, I want to cook my spaghetti!
+Long story short, I came upon some limitations about using Hexo and its themes, so instead of hacking around the entire codebase to do some (apparently) simple tasks, I&amp;rsquo;ve opted for a fresh start, plus this is a perfect occasion to try some new NPM package.</description>
+    </item>
+    
+    <item>
+      <title>Back pressured thoughts</title>
+      <link>https://greguz.github.io/personal-blog/posts/2019/back-pressured-thoughts/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/posts/2019/back-pressured-thoughts/</guid>
+      <description>Node.js is perfect for scripting. With its well-stocked library, you can just drop a small amount of code to solve complicated problems. Add some ReactiveX-flavored code and you will be able to conquer the world.
+Anyone who has used Node.js for some time, probably knows very well the backpressure problem with streams. It&amp;rsquo;s when you define a readable stream (the source) and a writable stream (the target) but the writable stream is slower to process the data then the readable stream to output new data.</description>
+    </item>
+    
+    <item>
+      <title>DSLogic Plus</title>
+      <link>https://greguz.github.io/personal-blog/posts/2018/dslogic-plus/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/posts/2018/dslogic-plus/</guid>
+      <description>Santa (nickname for TNT) has come to my town in advance, and has brought to me a brand new DSLogic Plus logic analyzer. [heavy breathing]
+Finally I have a way to test my uber-fake environment, and watch if everything is running smoothly.
+I have to admit that the construction quality is great. It came with a USB type C cable, fly wires and 16 hook clips, plus a nice black package.</description>
+    </item>
+    
+    <item>
+      <title>DualShock 2 emulator</title>
+      <link>https://greguz.github.io/personal-blog/posts/2018/dualshock-2-emulator/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/posts/2018/dualshock-2-emulator/</guid>
+      <description>Year 2018, and I&amp;rsquo;m still playing with a PlayStation 2. The only problem is the old crappy controller that I&amp;rsquo;m still using. Big problem if crack during a boss fight.
+So I came up with replacing my old DualShock 2 controller with a brand new Xbox One controller. Why not? First problem, know the Xbox One controller protocol and fetch the controller status. Second problem, fire up to the PlayStation the controller status using the DualShock 2 protocol.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://greguz.github.io/personal-blog/about/</link>
+      <pubDate>Wed, 04 Aug 1993 00:00:00 +0000</pubDate>
+      
+      <guid>https://greguz.github.io/personal-blog/about/</guid>
+      <description>About </description>
+    </item>
+    
+  </channel>
+</rss>

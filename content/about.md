@@ -4,10 +4,6 @@ date = "1993-08-04"
 author = "Giacomo Gregoletto"
 +++
 
-# Hello there
+# About
 
-I'm Giacomo Gregoletto, a keyboard-hitter from Italy.
-
-I love complex things like puzzles, guitar solos, snowboard freestyling, and even coding sometimes. You can see some of my projects on [GitHub](https://github.com/greguz/). I love to learn new things and keep my brain busy with new challenges.
-
-Show me what you got...
+![Hello there.](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODYxNjA1YWVjYzQxMGExN2UyZTRkMzkxMzU0YTRkZGVjMzcxMzFiNiZjdD1n/xTiIzJSKB4l7xTouE8/giphy.gif "Were you expecting something different?")

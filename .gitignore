@@ -1,5 +1,6 @@
-/public
+.*
+!.gitignore
 *.lock
-_terminal
-/deploy.sh
-/resources
+deploy.sh
+public
+resources

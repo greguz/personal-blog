@@ -1,27 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.Language }}">
-<head>
-  {{ block "title" . }}
-    <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
-  {{ end }}
-  {{ partial "head.html" . }}
-</head>
-<body class="{{- ( or .Params.color $.Site.Params.ThemeColor ) -}}">
-{{ $container := cond ($.Site.Params.FullWidthTheme | default false) "container full" (cond ($.Site.Params.CenterTheme | default false) "container center" "container") }}
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head.html" . }}
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
 
-<div class="{{- $container -}}{{- cond ($.Site.Params.oneHeadingSize | default true) " headings--one-size" "" }}">
+    {{ partial "header.html" . }}
 
-  {{ partial "header.html" . }}
-
-  <div class="content">
     {{ block "main" . }}
     {{ end }}
-  </div>
 
-  {{ block "footer" . }}
     {{ partial "footer.html" . }}
-  {{ end }}
-</div>
 
+  </div>
 </body>
+
+<link rel="stylesheet" href="/personal-blog/lib/font-awesome/css/all.min.css">
+<script src="/personal-blog/lib/jquery/jquery.min.js"></script>
+<script src="/personal-blog/js/main.js"></script>
 </html>

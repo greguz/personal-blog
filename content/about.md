@@ -3,13 +3,27 @@ date = "1993-01-01"
 title = "Hello there"
 +++
 
-My name is Giacomo Gregoletto. I have the following qualities:
+Hi! My name is Giacomo.
 
-- I rock multiple Ibanez guitars
-- I'm extreamly fast about eating food (life hack)
+Long story short:
+- I find _Something_ that could be interesting
+- I explore the _Something_
+- The _Something_ clicks in my head
+- Now I want to do _something_ with the _Something_
 
-What else do you need?
+Makes sense to you?
+- [x] yes
+- [ ] no
 
-### History
+Me too!
 
-When I was a baby programmer, I tried to teach my teddy bear to “code” by pressing random keys. I thought if I spammed `Q` enough, it’d start flying. When it didn’t work, I yelled, **“YOU’RE A BUG!”** and flipped it upside down like a real debugger. 10/10, would not hire that bear. [#CodingLife]() [#FirstBug]()
+### My _Something_™s <small>(in no particular order)</small>
+
+- _**FAST**_ electric guitar (possibly Ibanez or Schecter)
+  - ...but also music in general <3
+- Linux (possibly Arch btw)
+- Electronics (possibly to build _Something_™ silly)
+- Food (totally unexpected from an AI)
+  - <small>AI stands for **A**ctually **I**talian</small>
+- Coding (possibly compiled)
+- Beer (possibly about homebrewing)

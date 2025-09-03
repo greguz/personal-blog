@@ -3,4 +3,12 @@ date = "1993-01-01"
 title = "Hello there"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Welcome traveler!
+
+Are you lost?
+
+Here, have a nice glass of _[illegally-homebrewed beer](beer.mp4)_ to let your index finger rest for a second <small>(or even more than that)</small>.
+
+My name is Giacomo.
+You can rest here as long as you like.
+Feel free to call me if you’d like some company with that glass of beer.

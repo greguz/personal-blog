@@ -1,20 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-{{ partial "head.html" . }}
-<body class="max-width mx-auto px3 ltr">
-  <div class="content index py4">
-
-    {{ partial "header.html" . }}
-
-    {{ block "main" . }}
-    {{ end }}
-
-    {{ partial "footer.html" . }}
-
-  </div>
-</body>
-
-<link rel="stylesheet" href="/personal-blog/lib/font-awesome/css/all.min.css">
-<script src="/personal-blog/lib/jquery/jquery.min.js"></script>
-<script src="/personal-blog/js/main.js"></script>
+<html lang="{{ $.Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+                {{- block "main" . }}{{- end }}
+                {{ partial "footer.html" }}
+            </div>
+        </main>
+    </body>
 </html>

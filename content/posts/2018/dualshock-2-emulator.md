@@ -1,13 +1,10 @@
 +++
 date = "2018-11-20"
 title = "DualShock 2 emulator"
-subtitle = "Trust me PlayStation, I'm a fully fledged DualShock 2 controller"
 tags = ["c++", "playstation", "arduino"]
 +++
 
 Year 2018, and I'm still playing with a PlayStation 2. The only problem is the old crappy controller that I'm still using. Big problem if crack during a boss fight.
-
-<!-- more -->
 
 So I came up with replacing my old DualShock 2 controller with a brand new Xbox One controller. Why not? First problem, know the Xbox One controller protocol and fetch the controller status. Second problem, fire up to the PlayStation the controller status using the DualShock 2 protocol.
 

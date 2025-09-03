@@ -1,14 +1,11 @@
 +++
 date = "2023-01-02"
 title = "Gain sanity with TypeScript and Fastify"
-subtitle = ""
 tags = ["javascript", "typescript", "fastify"]
 draft = true
 +++
 
 _Fastify_ and _TypeScript_. I am sure more than one person is using this stack configuration for both pet-projects and some production code. Full disclosure: I have to place myself into this category too.
-
-<!-- more -->
 
 code
 
@@ -23,7 +20,7 @@ export type RawRequest = http.IncomingMessage
 export type RawReply = http.ServerResponse
 
 export interface FastifyContext {
-  // TODO: place here something useful 
+  // TODO: place here something useful
 }
 
 export type FastifySchema = fastify.FastifySchema

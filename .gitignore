@@ -1,6 +1,8 @@
 .*
+!.editorconfig
+!.github
 !.gitignore
-*.lock
-deploy.sh
-public
-resources
+!.gitkeep
+!.nojekyll
+/public
+/resources

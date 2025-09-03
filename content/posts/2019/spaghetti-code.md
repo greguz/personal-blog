@@ -1,7 +1,6 @@
 +++
 date = "2019-11-01"
 title = "Spaghetti Code"
-subtitle = "Goodbye Hexo, welcome Metalsmith"
 tags = ["blog"]
 +++
 

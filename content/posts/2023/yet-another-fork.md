@@ -1,18 +1,15 @@
 +++
 date = "2023-01-01"
 title = "Yet another fork"
-subtitle = "The forking tale of fluent-json-schema-es and why TypeScript has forced me to do this."
 tags = ["javascript", "typescript", "fastify"]
 draft = true
 +++
 
 Node.js is perfect for scripting. With its well-stocked library, you can just drop a small amount of code to solve complicated problems. Add some [ReactiveX](https://rxjs-dev.firebaseapp.com/)-flavored code and you will be able to conquer the world.
 
-<!-- more -->
-
 <!-- got.js is pure ESM
 ok, I can work with pure ESM and code coverage with c8
-ok, TypeScript _seems to support_ pure ESM 
+ok, TypeScript _seems to support_ pure ESM
 ok, I need Got.js, so let's upgrade
 I'm on TypeScript 4.7 -->
 

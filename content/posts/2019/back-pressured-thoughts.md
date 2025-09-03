@@ -1,13 +1,10 @@
 +++
 date = "2019-01-20"
 title = "Back pressured thoughts"
-subtitle = "Yet another way to deal with backpressure with Rx.js"
 tags = ["javascript", "reactivex"]
 +++
 
 Node.js is perfect for scripting. With its well-stocked library, you can just drop a small amount of code to solve complicated problems. Add some [ReactiveX](https://rxjs-dev.firebaseapp.com/)-flavored code and you will be able to conquer the world.
-
-<!-- more -->
 
 Anyone who has used Node.js for some time, probably knows very well the [backpressure](https://nodejs.org/en/docs/guides/backpressuring-in-streams/) problem with streams. It's when you define a readable stream (the source) and a writable stream (the target) but the writable stream is slower to process the data then the readable stream to output new data.
 

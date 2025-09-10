@@ -13,7 +13,7 @@ Long story short:
 
 Makes sense to you?
 - [x] yes
-- [ ] no
+- [ ] [no](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 Me too!
 

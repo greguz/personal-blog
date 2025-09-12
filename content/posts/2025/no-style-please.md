@@ -1,6 +1,6 @@
 +++
 date = "2025-09-03"
-title = "No style please!"
+title = "No style, please!"
 tags = ["blog", "hugo", "privacy"]
 +++
 

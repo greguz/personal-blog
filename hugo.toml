@@ -2,6 +2,7 @@ baseURL = "https://greguz.github.io/personal-blog/"
 languageCode = "en-us"
 title = "gblog"
 copyright = "Giacomo Gregoletto"
+enableRobotsTXT = true
 
 [caches]
   [caches.images]

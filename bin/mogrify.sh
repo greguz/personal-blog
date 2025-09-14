@@ -1,6 +1,6 @@
 #!/bin/bash
 
-find content -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec mogrify -strip -interlace Plane -quality 75 {} +
+find content -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec mogrify -strip -resize 1600x1600\> -interlace Plane -quality 80 {} +
 
 # find content: starts in the "content" directory
 # -type f: only files

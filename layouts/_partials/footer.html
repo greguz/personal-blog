@@ -3,4 +3,5 @@
       &copy; {{ now.Format "2006" }} {{ site.Params.author.name }}
     </p>
 </footer>
-<script type="text/javascript" src="{{ "lol.js" | relURL }}" defer></script>
+{{ $lol := resources.Get "js/lol.js" | resources.Minify | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $lol.RelPermalink }}" integrity="{{ $lol.Data.Integrity }}" defer></script>

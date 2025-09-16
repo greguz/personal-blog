@@ -18,6 +18,7 @@
   {{ $style := $sass | css.Sass $options | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
   {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="7e4868f6-f011-4ec1-beed-4e2801d1e8ea"></script>
   <script type="text/javascript">
     // prevents Firefox FOUC
     // https://stackoverflow.com/questions/21147149/flash-of-unstyled-content-fouc-in-firefox-only-is-ff-slow-renderer

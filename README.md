@@ -2,7 +2,7 @@
 
 My personal blog.
 
-Browse the blog [here](https://greguz.github.io/personal-blog/).
+Browse the blog [here](https://blog.greguz.me/).
 
 ## Do something
 

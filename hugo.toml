@@ -1,4 +1,4 @@
-baseURL = "https://greguz.github.io/personal-blog/"
+baseURL = "https://blog.greguz.me/"
 languageCode = "en-us"
 title = "gblog"
 copyright = "Giacomo Gregoletto"

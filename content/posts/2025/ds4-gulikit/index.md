@@ -58,7 +58,7 @@ Yes! After some easy reassembly, I can finally take a look at the culprit of thi
 
 {{< img "the_culprit.jpg" "The culprit: carbon-based potentiometers" >}}
 
-For these little rascals, I could have thrown away an otherwise perfectly fine Dualshock 4 controller.
+Because of these little suckers, I almost threw away an otherwise perfectly fine DualShock 4 controller.
 
 I'm looking at you, Sony...
 

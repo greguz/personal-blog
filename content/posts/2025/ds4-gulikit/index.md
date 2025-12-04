@@ -32,7 +32,7 @@ Enter GuliKit's products:
 
 For less than 15€, I can try to save my poor controller. You could also rephrase that to "I can fix my overpriced piece of junk that some megacorp created."
 
-These little guys are HAL-effect stick replacements for my Dualshock 4 controller. They don't use cheap resistors to translate movements into analog signals, but instead, they use magnets, removing the problem of "wearing out" the resistor and thus creating drift.
+These little guys are TMR (Tunnel Magnetoresistance) stick replacements for my Dualshock 4 controller. They don't use cheap resistors to translate movements into analog signals, but instead, they use magnets, removing the problem of "wearing out" the resistor and thus creating drift.
 
 To the laboratory!
 

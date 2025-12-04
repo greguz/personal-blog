@@ -39,9 +39,8 @@
   <ul>
     {{- range $tag := (sort $tags "count" "desc" | first 5) -}}
       <li>
-        <span>{{ $tag.count }}</span>
-        <a href="{{ "tags/" | relURL }}{{ $tag.name }}">{{ safeHTML $tag.name }}</a>
-
+        <a href="{{ "tags/" | relURL }}{{ $tag.name }}">#{{ safeHTML $tag.name }}</a>
+        <span>({{ $tag.count }})</span>
       </li>
     {{- end -}}
     <li>

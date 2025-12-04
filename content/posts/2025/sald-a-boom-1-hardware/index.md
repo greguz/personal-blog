@@ -1,7 +1,7 @@
 +++
 date = "2025-09-06"
 title = "Sald-A-Boom #1 (hardware)"
-tags = ["music", "arduino", "sax-a-boom", "c++"]
+tags = ["music", "arduino", "electronics", "c++"]
 +++
 
 I'm gonna be honest.

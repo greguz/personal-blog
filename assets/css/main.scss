@@ -39,11 +39,6 @@
     border: thin solid $--primary-text-color;
   }
 
-  .toc {
-    border: thin solid $--primary-text-color;
-    padding: 1rem;
-  }
-
   figcaption { color: $--secondary-text-color; }
 
   blockquote {
@@ -176,6 +171,12 @@ details[open] summary {
   padding: 4rem 2rem;
 }
 
-.toc {
-  padding: 1rem;
+ul.tags {
+  margin: 0;
+  padding: 0;
+}
+
+ul.tags li {
+  display: inline-block;
+  margin-right: 10px;
 }

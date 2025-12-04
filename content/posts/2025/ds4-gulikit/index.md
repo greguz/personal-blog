@@ -1,7 +1,7 @@
 +++
 date = "2025-11-29"
 title = "Dualshock 4 stick drift"
-tags = ["playstation", "drift", "repair", "desoldering", "dmc"]
+tags = ["playstation", "repair", "electronics", "dmc"]
 +++
 
 ## Story time!

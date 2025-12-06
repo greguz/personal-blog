@@ -25,8 +25,16 @@
 
     var remark_config = {
       host: "https://comments.greguz.me",
-      site_id: "greguz_blog",
       no_footer: true,
+      site_id: "greguz_blog",
+      theme: "light",
     };
+
+    if (window.matchMedia) {
+      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (prefersDarkScheme) {
+        remark_config.theme = "dark";
+      }
+    }
   </script>
 </head>

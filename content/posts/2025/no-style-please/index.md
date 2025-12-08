@@ -19,4 +19,4 @@ Hugo is a good-enough blog framework, and I prefer unstyled websites, especially
 
 > Did you know this site _doesn't_ track you? <3
 
-I solemnly swear that I'm not going to change this blog again (while talking to myself).
+I solemnly swear that I'm not going to change this blog ever again.

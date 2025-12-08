@@ -1,7 +1,7 @@
 +++
 date = "2019-11-01"
 title = "Spaghetti Code"
-tags = ["blog", "metalsmith"]
+tags = ["blog", "javascript"]
 +++
 
 As the subtitle may suggest, I've left the super-fast-to-start Hexo framework for a more complicated solution: because, you know, I want to cook my own spaghetti!

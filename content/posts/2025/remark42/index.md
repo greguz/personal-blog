@@ -79,7 +79,7 @@ sudo chmod 750 /var/remark42/
 
 The good folks behind Remark42 have already provided an example [systemd unit template](https://remark42.com/docs/getting-started/installation/) for me. How nice and convenient.
 
-Now tapping `nano /etc/systemd/system/remark42.service`:
+Now tapping `sudo nano /etc/systemd/system/remark42.service`:
 
 ```ini
 [Unit]
@@ -105,7 +105,7 @@ Anyone who has ever configured a systemd unit should already know the next step 
 It's time to personalize our Remark42 instance.
 A wonderful list of all available environment variables is available on the official [docs website](https://remark42.com/docs/configuration/parameters/).
 
-Now, let's run sudo `nano /etc/remark42.env`:
+Now, let's run `sudo nano /etc/remark42.env`:
 
 ```env
 REMARK_URL=https://remark42.domain.net
@@ -132,12 +132,14 @@ sudo systemctl enable --now remark42
 
 A quick search for _"simple Let’s Encrypt reverse proxy"_ returns _Caddy_ right at the top of the results.
 
-Seems legit enough to me:
+Seems legit enough to me!
 
 ```bash
 sudo dnf install caddy
 sudo nano /etc/caddy/Caddyfile
 ```
+
+Just replace the whole thing with something like this...
 
 ```text
 remark42.domain.net {
@@ -146,7 +148,15 @@ remark42.domain.net {
 }
 ```
 
+...a quick reboot...
+
 ```bash
 sudo caddy fmt --overwrite /etc/caddy/Caddyfile
 sudo systemctl enable --now caddy
 ```
+
+Done.
+
+## Happy commenting
+
+If you want to.

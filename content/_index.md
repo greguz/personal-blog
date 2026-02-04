@@ -11,4 +11,4 @@ Here, have a nice glass of _[illegally-homebrewed beer](beer.mp4)_ to let your i
 
 My name is Giacomo.
 You can rest here as long as you like.
-Feel free to call me if you’d like some company with that glass of beer.
+Feel free to call me if you'd like some company with that glass of beer.

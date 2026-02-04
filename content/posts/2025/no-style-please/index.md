@@ -4,9 +4,9 @@ title = "No style, please!"
 tags = ["blog", "hugo", "privacy"]
 +++
 
-### Fifth time’s the charm
+### Fifth time's the charm
 
-Let’s recap the changes this blog has gone through:
+Let's recap the changes this blog has gone through:
 
 1. **November 2018**: Hexo (JavaScript framework)
 2. **October 2019**: Metalsmith (minimal JavaScript framework)

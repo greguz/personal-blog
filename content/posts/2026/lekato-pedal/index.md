@@ -30,8 +30,6 @@ For reference:
 
 Imagine having not one, but _two_ different devices that you constantly need to keep charged whether you're playing at home, rehearsing, or gigging somewhere.
 
-> **Spoiler alert**: it was reasonably hard.
-
 ## Fu-sion-HA!
 
 The plan was simple:
@@ -48,7 +46,9 @@ After multiple attempts with the only 3D software I've ever used (Tinkercad inde
 
 I can now explain this section's title: I picked Autodesk _Fusion_.
 
-To anyone is trying to decide which 3D CAD software to learn, I can say that Fusion is honestly very handy and fairly easy to pick up moderately complex 3D projects.
+To anyone is trying to decide which 3D CAD software to learn, I can say that Fusion is honestly very handy and fairly easy to pick up moderately complex 3D projects:
+
+{{< img "lekato_ws80_fusion.gif" "todo" >}}
 
 ## TODO
 

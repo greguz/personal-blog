@@ -130,7 +130,7 @@ sudo systemctl enable --now remark42
 
 ### Going public with Caddy and Let's Encrypt
 
-A quick search for _"simple Let’s Encrypt reverse proxy"_ returns _Caddy_ right at the top of the results.
+A quick search for _"simple Let's Encrypt reverse proxy"_ returns _Caddy_ right at the top of the results.
 
 Seems legit enough to me!
 

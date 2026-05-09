@@ -180,3 +180,13 @@ ul.tags li {
   display: inline-block;
   margin-right: 10px;
 }
+
+// Row of images
+.img-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.img-row > div {
+  flex: 1 1 300px;
+}

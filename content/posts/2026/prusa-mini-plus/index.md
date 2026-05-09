@@ -74,10 +74,12 @@ After 3 days of assembly, I got the printer working… but the filament sensor w
 
 I contacted Prusa support, and they said they'll send me the missing sensor.
 
-[{{< img "thanks_steve.gif" "Thanks Steve." >}}](https://www.youtube.com/watch?v=EUWVVTY63hc)
+[{{< img "thanks_steve.gif" "Thanks Steve." >}}](https://www.youtube.com/@GamersNexus)
 
 ## Orange and black was the colors of my Yamaha Aerox
 
 After some time, I got calibration, test checks, and a 3DBenchy properly done.
+
+{{< img "prusa_benchy.gif" "Prusa MINI+ printing a 3DBenchy" >}}
 
 It's beer time.

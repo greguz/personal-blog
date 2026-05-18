@@ -12,7 +12,7 @@ Long story short:
 
 Makes sense to you?
 - [x] yes
-- [ ] [no](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [ ] [no](../you_chose_no.mp4)
 
 Me too!
 

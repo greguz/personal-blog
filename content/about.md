@@ -1,5 +1,4 @@
 +++
-date = "1993-01-01"
 title = "Hello there"
 +++
 

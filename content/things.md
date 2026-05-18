@@ -1,11 +1,10 @@
 +++
-date = "1993-01-02"
 title = "Public things I did"
 +++
 
 ## JavaScript
 
-### Marionette.js: CollectionView changes its model (February 2017)
+### Marionette.js: `CollectionView` changes its model (February 2017)
 
 Found and fixed an issue with `CollectionView` that changed its bound data.
 

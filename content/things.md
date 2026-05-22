@@ -23,6 +23,12 @@ Found and fixed an edge case involving a missing error emit when "legacy streams
 
 - [GitHub PR](https://github.com/nodejs/node/pull/43519)
 
+### Z-Wave: skip node interview after S2 bootstrapping failure (January 2026)
+
+Solved a feature request dated back to July 2024.
+
+- [GitHub PR](https://github.com/zwave-js/zwave-js/pull/8162)
+
 ### NPM package: `porro`
 
 ![NPM Downloads of porro](https://img.shields.io/npm/dm/porro)
